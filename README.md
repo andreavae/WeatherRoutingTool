@@ -21,19 +21,11 @@ This provides a basic dynamic consumption model that responds to weather conditi
 
 2. Minimal Test Setup
 To validate the implementation:
-
 The configuration was updated to use the new ship class by setting BOAT_TYPE = "MySyntheticBoat" in configuration.py.
-
-A test route and weather data were used to run the routing process using the isofuel algorithm (ALGORITHM_TYPE = "isofuel").
-📁 Files Included
-File	Description
-mysyntheticboat.py	Implementation of the MySyntheticBoat class
-configuration.py	Edited to set BOAT_TYPE = "MySyntheticBoat" for testing
 
 🎯 Next Steps
 More advanced work that could be done in GSoC, could be:
-
 - Ship speed optimization
--Improved genetic algorithms
--Development of a general consumption model
--Benchmarking and performance improvements.
+- Improved genetic algorithms
+- Development of a general consumption model
+- Benchmarking and performance improvements.
